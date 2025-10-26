@@ -22,7 +22,7 @@ export default function Inicio() {
                 />
             </h3>
 
-            <p className="text-white text-lg text-justify w-xl">
+            <p className="text-white text-lg text-justify">
                 Desenvolvedor Fullstack focado em criar soluções web intuitivas. 
                 Também atuo em mineração de dados para gerar insights que impulsionam resultados.
             </p>
