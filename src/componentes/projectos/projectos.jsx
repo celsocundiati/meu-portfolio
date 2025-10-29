@@ -7,54 +7,54 @@ function Projectos() {
     const projectos = [
         {
             id: 1,
-            title: "WEATHER FORECAST",
-            desc: "Um aplicativo da web que exibe as condições meteorológicas atuais e previsões de 7 dias usando dados de API em tempo real",
-            image:
+            titulo: "WEATHER FORECAST",
+            desc: "Um aplicativo da web que exibe as condições meteorológicas atuais e previsões de 5 dias usando dados de API em tempo real",
+            imagem:
                 "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
             linkSite: "https://previsaodotempocs.vercel.app/",
             linkGit: "https://github.com/celsocundiati/previsao_do_tempo",
         },
         {
             id: 2,
-            title: "QUIZ APP",
+            titulo: "QUIZ APP",
             desc: "Um aplicativo de teste interativo com várias categorias, pontuações e feedback em tempo real.",
-            image:
+            imagem:
                 "https://cdn-icons-png.flaticon.com/512/1048/1048953.png",
             linkSite: "https://quizcs.vercel.app/",
             linkGit: "https://github.com/celsocundiati/quiz-react",
         },
         {
             id: 3,
-            title: "TASK LIST",
+            titulo: "TASK LIST",
             desc: "Um aplicativo da web de gerenciamento de tarefas para criar, editar e rastrear suas tarefas diárias com eficiência.",
-            image:
-                "https://cdn-icons-png.flaticon.com/512/9068/9068643.png", // imagem ilustrativa
+            imagem:
+                "https://cdn-icons-png.flaticon.com/512/9068/9068643.png", // imagemm ilustrativa
             linkSite: "https://listadetarefascs.vercel.app/",
             linkGit: "https://github.com/celsocundiati/ListaDeMercado_Reactjs",
         },
         {
             id: 4,
-            title: "TWINDER",
+            titulo: "TWINDER",
             desc: "A live Geolocation app for finding tweets and twitter users around you.",
-            image:
+            imagem:
                 "https://cdn-icons-png.flaticon.com/512/854/854878.png",
             linkSite: "https://quizcs.vercel.app/",
             linkGit: "https://github.com/celsocundiati/quiz-react",
         },
         {
             id: 5,
-            title: "LIVENTS",
+            titulo: "LIVENTS",
             desc: "A video streaming app with live Geolocation, for streaming events.",
-            image:
+            imagem:
                 "https://cdn-icons-png.flaticon.com/512/4211/4211803.png",
             linkSite: "https://previsaodotempocs.vercel.app/",
             linkGit: "https://github.com/celsocundiati/previsao_do_tempo",
         },
         {
             id: 6,
-            title: "MOOVE",
+            titulo: "MOOVE",
             desc: "Mobile app for booking instant pickup & dropoff accross major cities.",
-            image:
+            imagem:
                 "https://cdn-icons-png.flaticon.com/512/1995/1995574.png",
             linkSite: "https://listadetarefascs.vercel.app/",
             linkGit: "https://github.com/celsocundiati/ListaDeMercado_Reactjs",
@@ -84,15 +84,13 @@ function Projectos() {
 
                             <div className="bg-[#2a2a4a] rounded-xl flex justify-center items-center h-44 mb-6 border border-purple-400/30">
                                 <img
-                                src={proj.image}
-                                alt={proj.title}
+                                src={proj.imagem}
+                                alt={proj.titulo}
                                 className="h-28 object-contain"
                                 />
                             </div>
 
-                            <h3 className="text-lg font-semibold text-[#7562E0]  mb-3">
-                                {proj.title}
-                            </h3>
+                            <h3 className="text-lg font-semibold text-[#7562E0]  mb-3">{proj.titulo}</h3>
                             
                             <p className="text-gray-300 mb-6">{proj.desc}</p>
 
