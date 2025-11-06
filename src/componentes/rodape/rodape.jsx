@@ -29,7 +29,7 @@ export default function ContatoERodape() {
           {/* Ícones de redes sociais */}
           <div className="flex items-center gap-5 mt-6">
 
-            <a href="www.linkedin.com/in/celso-cundiati-b65486324" className="text-[#7562E0] text-3xl hover:opacity-80 transition">
+            <a href="https://www.linkedin.com/in/celsocundiati-b65486324/" className="text-[#7562E0] text-3xl hover:opacity-80 transition">
               <FaLinkedinIn />
             </a>
 
