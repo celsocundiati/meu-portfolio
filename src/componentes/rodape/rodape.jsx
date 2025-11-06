@@ -3,7 +3,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-export default function ContatoERodape() {
+function ContatoERodape() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -12,7 +12,7 @@ export default function ContatoERodape() {
   };
 
   return (
-    <section className="bg-[#181824] text-white pt-12 md:pt-16 pb-6 md:pb-10 px-6 md:px-16">
+    <section id="contacto" className="bg-[#181824] text-white pt-12 md:pt-16 pb-6 md:pb-10 px-6 md:px-16">
       {/* GRID principal - Esquerda | Direita */}
       <div className="grid md:grid-cols-2 gap-10 md:gap-12 items-start">
         
@@ -33,7 +33,7 @@ export default function ContatoERodape() {
               <FaLinkedinIn />
             </a>
 
-            <a href="cundiaticelso@gmail.com" className="text-[#7562E0] text-3xl hover:opacity-80 transition">
+            <a href="mailto:cundiaticelso@gmail.com" className="text-[#7562E0] text-3xl hover:opacity-80 transition">
               <FaEnvelope />
             </a>
 
@@ -102,8 +102,8 @@ export default function ContatoERodape() {
         {/* Ícones novamente (como no protótipo) */}
         <div className="flex items-center gap-4 text-[#7562E0]">
 
-          <FaLinkedinIn className="text-xl hover:opacity-80 transition" />
-          <FaEnvelope className="text-xl hover:opacity-80 transition" />
+          <a href="https://www.linkedin.com/in/celsocundiati-b65486324/"><FaLinkedinIn className="text-xl hover:opacity-80 transition" /></a>
+          <a href="mailto:cundiaticelso@gmail.com"><FaEnvelope className="text-xl hover:opacity-80 transition" /></a>
 
         </div>
 
@@ -111,3 +111,5 @@ export default function ContatoERodape() {
     </section>
   );
 }
+
+export default ContatoERodape;
