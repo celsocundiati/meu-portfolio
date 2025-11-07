@@ -96,7 +96,7 @@ function ContatoERodape() {
         </div>
 
         <p className="text-sm">
-          Designed by <span className="text-[#7562E0]">@ernestechie</span>
+          Designed by <span className="text-[#7562E0]">@celsocundiati</span>
         </p>
 
         {/* Ícones novamente (como no protótipo) */}
